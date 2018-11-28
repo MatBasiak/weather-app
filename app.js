@@ -1,5 +1,6 @@
-const request = require('request'); // npm package
-const key = ''; // my api key from google cloud 
+const request = require('request');
+const config= require('./config.js')
+const key = `${config.MY_KEY}`; // my api key from google cloud 
 
 
 const yargs = require('yargs');
