@@ -21,7 +21,7 @@ const getWeather = (lat, lng, callback) => {
         // }
 
         if (!error && response.statusCode === 200) {
-            callback(undefined,{
+            callback(undefined, {
 
                 temperature: body.currently.temperature,
                 latitude: body.longitude,
